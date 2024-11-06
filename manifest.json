@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "WR Table to Cards",
+    "version": "1.7.4",
+    "description": "Transform Reception Perception WR table into cards",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://receptionperception.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}

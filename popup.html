@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    
+    .btn-group {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    
+    button {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .primary-btn {
+      background: #1a73e8;
+      color: white;
+    }
+    
+    .secondary-btn {
+      background: #e8eaed;
+      color: #3c4043;
+    }
+    
+    #status {
+      color: #5f6368;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="btn-group">
+    <button id="showCards" class="secondary-btn">Show Cards</button>
+    <button id="showTable" class="primary-btn">Show Table</button>
+  </div>
+  <div id="status">Current view: Table</div>
+  <script src="popup.js"></script>
+</body>
+</html> 

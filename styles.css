@@ -1,0 +1,219 @@
+/* Loading State */
+.wr-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+/* Error State */
+.wr-error {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px;
+}
+
+/* View Toggle */
+.wr-view-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e40af;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Cards Grid */
+.wr-cards-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 16px;
+}
+
+/* Card Styles */
+.wr-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 100%;
+    text-align: left;
+}
+
+.wr-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wr-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+.wr-card-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.wr-card-name-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.wr-card-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.wr-card-team {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.wr-card-rankings {
+    display: flex;
+    gap: 16px;
+}
+
+.wr-card-rank {
+    text-align: center;
+}
+
+.wr-card-rank-label {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 2px;
+}
+
+.wr-card-rank-value {
+    font-weight: 600;
+}
+
+.wr-card-performance {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.wr-card-notes {
+    margin: 16px 0;
+    color: #374151;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.wr-card-games {
+    color: #666;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Performance colors */
+.wr-performance-wow {
+    background: #11734B;
+    color: white;
+}
+
+.wr-performance-good {
+    background: #D4EDBC;
+    color: #333;
+}
+
+.wr-performance-right-on {
+    background: #FFE5A0;
+    color: #333;
+}
+
+.wr-performance-oof {
+    background: #FFCFC9;
+    color: #333;
+}
+
+.wr-performance-yikes {
+    background: #B10202;
+    color: white;
+}
+
+/* Add these styles to your existing styles.css */
+
+.wr-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #1e40af;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 10000;
+    transition: all 0.2s ease;
+}
+
+.wr-toggle-button:hover {
+    background: #1c3879;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wr-toggle-button:active {
+    transform: translateY(0);
+}
+
+.wr-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.wr-search-container {
+    margin-bottom: 16px;
+}
+
+.wr-search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.wr-search-input:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}
+
+.wr-card-performance-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wr-card-performance-label {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Update existing card grid styles */
+.wr-cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
